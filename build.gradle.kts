@@ -28,3 +28,11 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+tasks.jar {
+    enabled = false
+}
+
+tasks.named<Jar>("jar") {
+    from(sourceSets["main"].output)
+}
