@@ -30,10 +30,10 @@ jobs:
           arguments: build
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
-          name: java-app
-          path: '${{ github.workspace }}/target/*.jar'
+          name: my-azure-github-spring-boot-sample
+          path: build/libs
 
   deploy:
     runs-on: ubuntu-latest
@@ -44,9 +44,9 @@ jobs:
 
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
-          name: java-app
+          name: my-azure-github-spring-boot-sample
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
