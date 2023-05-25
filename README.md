@@ -10,7 +10,8 @@
 ## Run
 
 * Start the application in Intellij IDEA
-* Access endpoint - `http://localhost:8080/greetings?name=Shaun`
+* Access endpoint - http://localhost:8080/greetings?name=Shaun
+* After deploying in Azure App Service - https://shaun-app-service.azurewebsites.net/greetings?name=Shaun
 
 ## References
 
