@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
 
-name: Build and deploy JAR app to Azure Web App - shaun-app-service
+name: Build and deploy JAR app to Azure Web App
 run-name: Github Action Java Gradle on ${{ github.ref}} by ${{ github.actor }}
 on:
   push:

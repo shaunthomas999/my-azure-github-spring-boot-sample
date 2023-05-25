@@ -1,6 +1,6 @@
 # my-azure-github-spring-boot-sample
 
-[![Github Action Java Gradle](https://github.com/shaunthomas999/my-azure-github-spring-boot-sample/actions/workflows/github-actions-java-gradle.yml/badge.svg)](https://github.com/shaunthomas999/my-azure-github-spring-boot-sample/actions/workflows/github-actions-java-gradle.yml)
+[![Build and deploy JAR app to Azure Web App](https://github.com/shaunthomas999/my-azure-github-spring-boot-sample/actions/workflows/main_shaun-app-service.yml/badge.svg?branch=main)](https://github.com/shaunthomas999/my-azure-github-spring-boot-sample/actions/workflows/main_shaun-app-service.yml)
 
 # Setup
 
