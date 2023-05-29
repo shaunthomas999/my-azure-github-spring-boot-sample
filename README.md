@@ -11,7 +11,13 @@
 
 * Start the application in Intellij IDEA
 * Access endpoint - http://localhost:8080/greetings?name=Shaun
-* After deploying in Azure App Service - https://shaun-app-service.azurewebsites.net/greetings?name=Shaun
+
+## Deploy
+
+* Option-1 - Github Actions [.github/workflows/main_shaun-app-service.yml](.github%2Fworkflows%2Fmain_shaun-app-service.yml)
+* Options-2 - Azure CLI [docs/az-cli-readme.md](docs%2Faz-cli-readme.md)
+
+After deploying in Azure App Service - https://shaun-azure-github-springboot-webapp.azurewebsites.net/greetings?name=Shaun
 
 ## References
 
